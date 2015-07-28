@@ -1,3 +1,3 @@
-/**
- * Created by ladmusician on 15. 7. 29..
- */
+$(document).ready(function(){
+    $('.bxslider').bxSlider();
+});

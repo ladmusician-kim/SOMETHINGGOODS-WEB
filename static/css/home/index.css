@@ -1,0 +1,15 @@
+/* main slider */
+.sg-main-slider {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    color: inherit;
+}
+/* lib */
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    padding-top: 0px !important;
+    bottom: 10px !important;
+}
+.bx-wrapper {
+    margin: 0 auto 0 !important;;
+}
+
