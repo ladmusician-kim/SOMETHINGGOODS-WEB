@@ -21,14 +21,19 @@
         }
 
         if(file_exists($filename)) {
-    ?>
+            ?>
             <script src="/SOMETHINGGOODS/<?php echo $filename; ?>"></script>
-    <?php
+            <?php
         }
-    ?>
+        if(strpos($filename, 'home')) {
+            ?>
+            <!-- slider -->
+            <script src="<?php echo base_url()?>static/lib/slider/js/jquery.bxslider.js"></script>
+            <?php
+        }
+            ?>
 
-    <!-- slider -->
-    <script src="<?php echo base_url()?>static/lib/slider/js/jquery.bxslider.js"></script>
+
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="<?php echo base_url()?>static/lib/bootstrap/js/ie10-viewport-bug-workaround.js"></script>

@@ -7,10 +7,8 @@ class Home extends SG_Controller {
 
     public function index()
     {
-        $this->__get_views('/_Home/index');
+        $this->__get_home_views('/_Home/index');
     }
 
-    function __get_slider_view () {
-        $this->load->view('_Partial/main_slider');
-    }
+
 }

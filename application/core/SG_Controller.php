@@ -8,9 +8,24 @@ class SG_Controller extends CI_Controller {
         $this->load->driver('cache', array('adapter' => 'apc', 'backup' => 'file'));
     }
 
-    function __get_views($viewStr, $data = null, $condition = null) {
+    function __get_views($viewStr, $data = null, $condition = null, $condition = null) {
         $this->load->view('_Layout/header.php');
-        $this->load->view('_Partial/main_slider.php');
+
+        $this->load->view('_Layout/nav.php');
+
+        if ($data != null) {
+            $this->load->view($viewStr, $data);
+        } else {
+            $this->load->view($viewStr);
+        }
+
+        $this->load->view('_Layout/footer.php');
+    }
+
+    function __get_home_views($viewStr, $data = null, $condition = null, $condition = null) {
+        $this->load->view('_Layout/header.php');
+
+        $this->load->view('_Partial/main_slider');
         $this->load->view('_Layout/nav.php');
 
         if ($data != null) {
