@@ -1,25 +1,20 @@
-<nav class="navbar navbar-inverse"> <!--navbar-fixed-top-->
+<nav class="navbar navbar-default">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Project name</a>
+            <!-- The mobile navbar-toggle button can be safely removed since you do not need it in a non-responsive implementation -->
+            <a class="navbar-brand" href="#">SOMETHINGGOODS</a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <form class="navbar-form navbar-right">
-                <div class="form-group">
-                    <input type="text" placeholder="Email" class="form-control">
-                </div>
-                <div class="form-group">
-                    <input type="password" placeholder="Password" class="form-control">
-                </div>
-                <button type="submit" class="btn btn-success">Sign in</button>
-            </form>
-        </div>
+        <!-- Note that the .navbar-collapse and .collapse classes have been removed from the #navbar -->
+        <div id="navbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">START</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">HOW IT</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">Q&A</a></li>
+                <li><a href="#">LOGIN</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
     </div>
 </nav>
-
