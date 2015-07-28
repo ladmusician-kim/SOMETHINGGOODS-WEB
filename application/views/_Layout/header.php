@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,6 +14,10 @@
   <?php
     $total_url = $_SERVER['PHP_SELF'];
     $arr_splitted_url = explode('/', $total_url);
+
+    if ($arr_splitted_url[count($arr_splitted_url) - 1] === "") {
+      unset($arr_splitted_url[count($arr_splitted_url) - 1]);
+    }
 
     $ctrl_name = $arr_splitted_url[count($arr_splitted_url) - 2];
     $view_name = $arr_splitted_url[count($arr_splitted_url) - 1];
@@ -31,6 +35,9 @@
       <?php
     }
   ?>
+
+  <!-- slider -->
+  <link href="<?php echo base_url()?>static/lib/slider/css/jquery.bxslider.css" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
