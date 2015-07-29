@@ -1,9 +1,47 @@
+.sg-main-img-1 {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.sg-main-img-2-1 {
+    width: 49.4%;
+    height: 300px;
+    float: left;
+}
+.sg-main-img-2-2 {
+    width: 49.4%;
+    height: 300px;
+    float: right;
+}
+.sg-main-img-3 {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.sg-main-label {
+    padding: 30px 0 30px 0;
+    background: #eeeeee;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sg-main-img-item {
+    width: 100%;
+}
+
+
+
+
+
 /* main slider */
 .sg-main-slider {
     padding-top: 48px;
     padding-bottom: 48px;
     color: inherit;
 }
+
 /* lib */
 .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
     padding-top: 0px !important;
