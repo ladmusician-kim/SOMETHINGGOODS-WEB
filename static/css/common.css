@@ -10,3 +10,18 @@ body {
 .navbar {
     margin-bottom: 0px !important;
 }
+
+/* footer */
+footer {
+    padding: 50px 0 50px 0;
+}
+footer p {
+    text-align: center;
+}
+footer .sg-footer-title {
+    margin-bottom: 30px;
+}
+
+footer .sg-footer-category {
+    margin-bottom: 30px;
+}

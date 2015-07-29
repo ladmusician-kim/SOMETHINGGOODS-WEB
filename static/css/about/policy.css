@@ -1,0 +1,12 @@
+.sg-box {
+    border-left-color: #1b809e !important;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.sg-section-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

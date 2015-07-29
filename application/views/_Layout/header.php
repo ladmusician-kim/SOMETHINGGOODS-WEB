@@ -54,3 +54,4 @@
 
 </head>
 <body>
+<div class="sg-body-container">

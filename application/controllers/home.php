@@ -9,6 +9,4 @@ class Home extends SG_Controller {
     {
         $this->__get_home_views('/_Home/index');
     }
-
-
 }

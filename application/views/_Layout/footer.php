@@ -1,5 +1,29 @@
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <p class="sg-footer-title">© SOMETHING GOODS</p>
+            <div class="row sg-footer-category">
+                <div class="col-md-3">
+                    <p><a href="<?php echo base_url()?>about/info">Company info.</a></p>
+                </div>
+                <div class="col-md-3">
+                    <p><a href="<?php echo base_url()?>about/agree">User Agreement</a></p>
+                </div>
+                <div class="col-md-3">
+                    <p><a href="<?php echo base_url()?>about/policy">Privacy Policy</a></p>
+                </div>
+                <div class="col-md-3">
+                    <p><a href="<?php echo base_url()?>about/service">Customer Service</a></p>
+                </div>
+            </div>
+            <p>상호명: Something Goods(썸띵굿즈) | 대구광역시 동구 동대구로 457 | 전화 053-2222-2222</p>
+            <p>대표이사: 김수빈 | 사업자등록번호 123-45-67890 | 통신판매 신고번호: 2015-대구달서-3333호</p>
+            <p>Copyright (C) 2015 Something Goods All right reserved</p>
+        </div>
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="<?php echo base_url()?>static/js/common.js"></script>
     <script src="<?php echo base_url()?>static/lib/bootstrap/js/bootstrap.min.js"></script>
 
     <?php
